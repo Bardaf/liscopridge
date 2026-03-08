@@ -9,9 +9,10 @@ from typing import Set
 from typing import Union
 from urllib.parse import urlencode
 from urllib.parse import urljoin
+from fastkml import kml, geometry
 
 # isort: off
-from ..hacks.fastkml import *  # noqa: F401, F403
+#from ..hacks.fastkml import *  # noqa: F401, F403
 # isort: on
 
 import bottle  # type: ignore [import]
